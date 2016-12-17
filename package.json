@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "a game based portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tasha-GitHub/Game-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Tasha Casagni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tasha-GitHub/Game-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Tasha-GitHub/Game-Portfolio#readme"
+}
