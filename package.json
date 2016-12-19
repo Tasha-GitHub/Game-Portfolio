@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Tasha-GitHub/Game-Portfolio/issues"
   },
-  "homepage": "https://github.com/Tasha-GitHub/Game-Portfolio#readme"
+  "homepage": "https://github.com/Tasha-GitHub/Game-Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }
