@@ -1,0 +1,47 @@
+/*phaser settings*/
+body {
+    margin: 0;
+}
+
+/*stickey footer*/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+/*end stickey footer*/
+
+/*other div styling*/
+.main-content{
+	display: flex;
+	flex-direction: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.projects , .contactMe{
+	text-align: center;
+}
+
+.portfolio{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.projects img{
+	height: 300px;
+	width: 500px;
+}
+/*footer styling*/
+
+footer{
+	text-align: center;
+}
+
