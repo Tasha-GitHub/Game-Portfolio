@@ -12,8 +12,8 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="images/fav-icon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="images/fav-icon/favicon-16x16.png" sizes="16x16" />
 
 </head>
 
@@ -40,43 +40,54 @@
 			<div class="portfolio">
 				<article>
 					<h3>Ranger</h3>
-					<img src="images/hike-finder.png">	
+					<img src="images/projects/hike-finder.png">	
 				</article>
 				<article>
 					<h3>Fetch</h3>	
-					<img src="images/bobs.png">	
+					<img src="images/projects/bobs.png">	
 				</article>
 				<article>
 					<h3>Friend Finder</h3>
-					<img src="images/friend-finder.jpg">		
+					<img src="images/projects/friend-finder.jpg">		
 				</article>
 				<article>
 					<h3>Pokemon Battles</h3>
-					<img src="images/role-player.jpg">		
+					<img src="images/projects/role-player.jpg">		
 				</article>
 				<article>
 					<h3>State Capital Trivia</h3>
-					<img src="images/trivia.jpg">		
+					<img src="images/projects/trivia.jpg">		
 				</article>
 				<article>
 					<h3>Bobs Burgers</h3>
-					<img src="images/bobs.png">		
+					<img src="images/projects/bobs.png">		
 				</article>
 				<article>
 					<h3>Gif Generator</h3>
-					<img src="images/widget-info.jpg">		
+					<img src="images/projects/widget-info.jpg">		
 				</article>
-				<article>
+				<article href="#modal1">
 					<h3>Game of Thrones Hangman</h3>
-					<img src="images/hang-man.jpg">	
+					<img src="images/projects/hang-man.jpg">
+
+					<!-- Modal Structure -->
+					<div id="modal1" class="modal">
+						<div class="modal-content">
+					      <h4>Modal Header</h4>
+					      <p>A bunch of text</p>
+					    </div>
+					    <div class="modal-footer">
+					      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+					    </div>
+					</div>
 				</article>
 			</div>
 		</section>
 		<section class="contactMe">
 			<h2>Contact Me</h2>
 			<form>
-				<input type="text" name="name" id="name">
-				<input type="text" name="email" id="email">
+				<input type="text" name="name" id="name" placeholder="name">
+				<input type="text" name="email" id="email" placeholder="email">
 				<textarea name="message" id="message" rows="2" cols="0">
 				</textarea>
 				<button class="btn waves-effect waves-light" type="submit" name="action">
@@ -94,5 +105,6 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="css/materialize/js/materialize.min.js"></script>
 	<script type="text/javascript" src="javascript/index.js"></script>
+	<script type="text/javascript" src="javascript/frontend.js"></script>
 </body>
 </html>
